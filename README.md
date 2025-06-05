@@ -45,17 +45,29 @@ Each template follows a consistent format:
 ```
 ### Template Name (Gemini Application)
 
-```
-Prompt text with [PLACEHOLDERS] for customization.
+[CLEAR INSTRUCTION]
 
-Multiple paragraphs with specific instructions.
+[CONTEXT/BACKGROUND INFORMATION]
+
+[SPECIFIC REQUIREMENTS]
+
+[OPTIONAL: FORMAT INSTRUCTIONS]
 ```
 
 **Example:**
 ```
-Specific example showing the template in use with real values.
+### Customer Follow-up Email (Gemini in Gmail)
+
+Draft a follow-up email to [CUSTOMER NAME] regarding our discussion about [PRODUCT/SERVICE].
+
+We met on [DATE] and discussed [KEY POINTS]. They expressed interest in [SPECIFIC FEATURES/BENEFITS].
+
+Include information about [PRICING/TIMELINE/NEXT STEPS] and suggest [PROPOSED ACTION].
+
+Format the email with a professional greeting, 2-3 concise paragraphs, and a clear call to action.
 ```
-```
+
+Templates use [BRACKETS] to indicate placeholders that you should replace with your specific information. Each template also specifies which Gemini application it works best with (e.g., Gemini in Gmail, Gemini in Docs, Gemini Advanced).
 
 ## Best Practices
 
